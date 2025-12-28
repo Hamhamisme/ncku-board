@@ -3,8 +3,7 @@ require 'date'
 
 # 設定：開啟 Session 功能來記住使用者
 enable :sessions
-set :session_secret, 'ncku_secret_key'
-
+set :session_secret, 'this_is_a_very_long_secret_key_created_for_ncku_board_security_check_to_pass_the_requirement_of_sixty_four_bytes'
 # --- 模擬資料庫 (存在記憶體中，重開機會清空) ---
 TASKS = [
   { 
